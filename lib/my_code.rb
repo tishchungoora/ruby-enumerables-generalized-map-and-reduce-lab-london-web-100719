@@ -3,7 +3,7 @@ def perform_transformations(source_array)
 end
 
 # Make all values negative
-def 
+def map_to_negativize
   perform_transformations.map{ |i| i * -1 }
 end
 
