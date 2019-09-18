@@ -12,5 +12,8 @@ end
 
 def reduce(source_array, starting_point = 0)
   result = 0
+  i = 0
+  
+  while 
   
 end
