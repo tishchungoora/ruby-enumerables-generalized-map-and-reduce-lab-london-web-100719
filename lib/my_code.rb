@@ -12,4 +12,4 @@ source_array.map{ |i| i }
 source_array.map{ |i| i * 2 }
 
 # Square all values
-source_array.map{ |i| i ** 2}
+source_array.map{ |i| i ** 2 }
