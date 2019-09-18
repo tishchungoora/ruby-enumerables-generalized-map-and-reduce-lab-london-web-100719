@@ -1,4 +1,4 @@
-def num_array(source_array)
+def num_array(element1, element2)
   
   puts 
 end
