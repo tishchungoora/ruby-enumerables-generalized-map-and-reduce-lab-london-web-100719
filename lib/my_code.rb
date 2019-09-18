@@ -6,4 +6,6 @@ def map(source_array)
     yield(source_array[i])
     i += 1
   end
+  
+  destination_array
 end
