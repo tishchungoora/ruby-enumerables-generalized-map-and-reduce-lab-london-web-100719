@@ -7,6 +7,7 @@ def map_to_negativize
   perform_transformations.map{ |i| i * -1 }
 end
 
+=begin
 # Conserve the same values
 perform_transformations.map{ |i| i }
 
@@ -15,3 +16,4 @@ perform_transformations.map{ |i| i * 2 }
 
 # Square all values
 perform_transformations.map{ |i| i ** 2 }
+=end
