@@ -10,7 +10,7 @@ def map(source_array)
   destination_array
 end
 
-def reduce(source_array, starting_point = 0)
+def reduce(source_array, starting_point = nil)
   result = 0
   i = 0
   
