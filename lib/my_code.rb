@@ -1,3 +1,9 @@
 def map(source_array)
-  source_array.map{ |i| i * -1}
+  i = 0
+  destination_array = []
+  
+  while i < source_array.length do
+    yield(source_array[i])
+    i += 1
+  end
 end
