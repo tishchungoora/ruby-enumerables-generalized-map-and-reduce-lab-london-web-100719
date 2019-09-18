@@ -1,1 +1,1 @@
-source_array.map { |i| i * -1 }
+map { |i| i * -1 }
