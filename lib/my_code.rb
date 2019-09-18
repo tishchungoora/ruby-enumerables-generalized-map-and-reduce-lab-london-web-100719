@@ -1,1 +1,1 @@
-# Your Code Here
+source_array.map { |i| i * -1 }
