@@ -9,3 +9,7 @@ def map(source_array)
   
   destination_array
 end
+
+def reduce
+  
+end
