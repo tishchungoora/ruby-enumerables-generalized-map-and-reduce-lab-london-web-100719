@@ -1,7 +1,9 @@
-def num_array(element1, element2)
-  
-  puts 
+def perform_calculations(source_array)
+  yield(#{source_array})
 end
-map { |i| i * -1 }
 
-map { |i| i }
+source_array.map { |i| i * -1 }
+
+source_array.map { |i| i }
+
+source_array.map
