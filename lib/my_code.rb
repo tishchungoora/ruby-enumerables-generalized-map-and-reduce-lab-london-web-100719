@@ -1,3 +1,3 @@
 map { |i| i * -1 }
 
-map
+map { |i| i * -1 }
